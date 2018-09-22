@@ -13,5 +13,9 @@
     "javascript",
     "functions",
     "toolkits"
-  ]
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/zeus1999/toolsuite"
+  }  
 }
