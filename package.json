@@ -1,0 +1,17 @@
+{
+  "name": "toolsuite",
+  "version": "1.0.6",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "keywords": [
+    "js",
+    "javascript",
+    "functions",
+    "toolkits"
+  ]
+}
