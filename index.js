@@ -128,6 +128,24 @@ module.exports = {
 
         return max;
 
+    },
+
+    intBreakDown: function(a, b){
+
+        var tmp = a;
+
+        if(tmp < 0){
+            while(tmp < 0){
+                tmp += b;
+            }
+        }
+
+        for(var i = 0; i < parseInt(a/b); i++){
+            tmp -= b;
+        }
+
+        return tmp;
+
     }
 
 

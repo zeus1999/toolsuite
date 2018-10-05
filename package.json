@@ -1,9 +1,10 @@
 {
   "name": "toolsuite",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js",
+    "test": "mocha e2e/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,10 +13,14 @@
     "js",
     "javascript",
     "functions",
-    "toolkits"
+    "toolkits",
+    "e2e"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/zeus1999/toolsuite"
-  }  
+    "type": "git",
+    "url": "https://github.com/zeus1999/toolsuite"
+  },
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
 }

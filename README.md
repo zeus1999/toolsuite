@@ -2,6 +2,12 @@
 
 A JS Toolsuite with many helpfull functions.
 
+Including e2e tests
+
+```
+npm test
+```
+
 ## functions
 
 You need to import this module with require
@@ -101,3 +107,20 @@ var arr = [{ key1: 1 }, { key1: 2, key2: 99 }];
 toolsuite.getMaxValueFromObjectArray(arr, "key2");
 ```
 Result: 99
+
+###intBreakDown(number, maxnumber)
+```
+toolsuite.intBreakDown(360, 360);
+```
+Result: 0
+
+```
+toolsuite.intBreakDown(400, 360);
+```
+
+Result: 40
+
+```
+toolsuite.intBreakDown(-90, 360);
+```
+Result: 270
